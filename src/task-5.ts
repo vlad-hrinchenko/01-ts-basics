@@ -1,14 +1,14 @@
-// let status: "loading" | "success" | "error";
+let status: "loading" | "success" | "error";
 
 
-// function logStatus(status: "loading" | "success" | "error") {
-//   if (status === "loading") {
-//     console.log("Loading...");
-//   } else if (status === "success") {
-//     console.log("Success!");
-//   } else if (status === "error") {
-//     console.log("Something went wrong");
-//   }
-// }
+function logStatus(status: "loading" | "success" | "error") {
+  if (status === "loading") {
+    console.log("Loading...");
+  } else if (status === "success") {
+    console.log("Success!");
+  } else if (status === "error") {
+    console.log("Something went wrong");
+  }
+}
 
-// logStatus("loading");
+logStatus("loading");
